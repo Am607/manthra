@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "693257189488",
+    "project_id": "manthra-6437c",
+    "storage_bucket": "manthra-6437c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693257189488:android:79933af8f87684641d5cb5",
+        "android_client_info": {
+          "package_name": "com.example.manthra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693257189488-1mdp2c3acue1s780iqompmhmlt3r2ovl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manthra",
+            "certificate_hash": "6350a2ea68dac973ad0d3efc1bff7d71523f3c8b"
+          }
+        },
+        {
+          "client_id": "693257189488-acvvmdt5hlt7fi7o017ol5bv0vmpapqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_pmGLfXfy8jNEwC5mk-bC9OBft8FMhCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693257189488-acvvmdt5hlt7fi7o017ol5bv0vmpapqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
