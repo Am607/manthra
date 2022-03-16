@@ -2,7 +2,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:manthra/controller/firbaseAuth.dart';
-import 'package:manthra/model/userModel.dart';
+import 'package:manthra/model/student_model.dart';
 import 'package:manthra/view/homaPage.dart';
 import 'package:manthra/view/widgets.dart';
 import 'package:nb_utils/nb_utils.dart';

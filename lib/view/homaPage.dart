@@ -1,5 +1,8 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 import 'package:manthra/controller/firbaseAuth.dart';
+import 'package:manthra/view/student/attendanceView.dart';
 import 'package:manthra/view/login.dart';
 import 'package:manthra/view/widgets.dart';
 
@@ -14,7 +17,7 @@ class _HomePageViewState extends State<HomePageView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(actions: [
+      appBar: AppBar(title: Text('Home Page'), actions: [
         IconButton(
           onPressed: () {
             AuthService().signOut().then((value) {
@@ -28,10 +31,28 @@ class _HomePageViewState extends State<HomePageView> {
           icon: Icon(Icons.logout),
         )
       ]),
-      body: Center(
-        child: AppBigButton(
-          name: 'Add Attendance',
-          onPressed: () {},
+      body: Container(
+        padding: EdgeInsets.only(left: 20, right: 20),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              AppBigButton(
+                name: 'Add Student',
+                onPressed: () {
+                  Navigator.push(context,
+                      MaterialPageRoute(builder: (context) => StudentView()));
+                },
+              ),
+              AppBigButton(
+                name: 'Add Attendance',
+                onPressed: () {
+                  // Navigator.push(context,
+                  //     MaterialPageRoute(builder: (context) => StudentView()));
+                },
+              ),
+            ],
+          ),
         ),
       ),
     );
